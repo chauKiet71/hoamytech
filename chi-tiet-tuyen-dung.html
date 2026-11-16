@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="48x48" href="assets/images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <title>Chi tiết tuyển dụng | HOMI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont/tabler-icons.min.css" rel="stylesheet">
+  <style>
+    :root{font-family:'Inter',sans-serif;color:#182338;background:#fff;font-synthesis:none}*{box-sizing:border-box}[hidden]{display:none!important}body{margin:0}a{color:inherit;text-decoration:none}button{font:inherit}.shell{max-width:1120px;margin:auto;padding:20px 32px 72px}.back{display:inline-flex;align-items:center;gap:7px;color:#386597;font-size:13px;font-weight:600;margin:0 0 20px}.back:hover{text-decoration:underline}.layout{display:grid;grid-template-columns:minmax(0,1fr) 316px;gap:48px;align-items:start}.brand{display:flex;align-items:center;gap:20px;font-size:14px;font-weight:700}.logo{width:74px;height:74px;object-fit:contain;border:1px solid #e0e6ee;border-radius:9px;padding:7px;box-shadow:0 2px 9px #102d5310}h1{font-size:30px;line-height:1.3;letter-spacing:-.035em;margin:16px 0 24px}h2{font-size:21px;letter-spacing:-.025em;line-height:1.4;margin:0 0 12px}.facts{display:flex;flex-wrap:wrap;gap:17px 32px;padding:4px 0 27px;border-bottom:1px solid #e6e9ef}.fact,.meta span,.info dt,.company-fact{display:inline-flex;align-items:center;gap:10px}.fact{font-size:14px;white-space:normal}.ti{font-size:19px;line-height:1;color:#344357}.meta{display:flex;gap:30px;border-bottom:1px solid #e6e9ef;padding:17px 0 20px;color:#536071;font-size:13px}.meta span{gap:8px}.meta .ti{font-size:17px}.section{margin-top:34px}.section-heading{display:flex;align-items:center;gap:17px}.section-heading>.ti{font-size:28px;color:#0876df}.section ul{padding-left:34px;margin:8px 0 0;line-height:1.75;font-size:14px}.section li{padding-left:3px;margin:3px 0}.section p{font-size:14px;line-height:1.75;margin:8px 0}.section p a{color:#146fbd;text-decoration:underline;overflow-wrap:anywhere}.info{border-top:1px solid #e6e9ef;margin-top:32px;padding-top:22px;display:grid;grid-template-columns:185px minmax(0,1fr);gap:16px 20px;font-size:13px}.info dt{font-weight:500}.info dd{margin:0;color:#465164;line-height:1.55}.company{border:1px solid #e1e7ee;border-radius:10px;padding:20px 18px 24px;box-shadow:0 8px 28px #162b4c08}.company .brand{gap:18px;align-items:center;line-height:1.5}.company p{font-size:13px;line-height:1.8;margin:18px 0;color:#354254}.company-fact{font-size:13px;margin:0 0 14px;line-height:1.45}.company-fact .ti{font-size:18px}.actions{border-top:1px solid #e5eaf0;margin-top:5px;padding-top:17px;display:grid;gap:15px}.button{display:flex;align-items:center;justify-content:center;gap:9px;min-height:55px;border-radius:6px;font-weight:700;font-size:13px;text-align:center;transition:transform .2s,box-shadow .2s}.button:hover{transform:translateY(-2px);box-shadow:0 8px 18px #096ede25}.button.outline{border:1px solid #1680dd;color:#146fbd}.button.primary{background:#0878e6;color:white}.button .ti{color:inherit;font-size:20px}.muted{color:#66758a}.mobile-apply{display:none}a:focus-visible{outline:3px solid #13d6c4;outline-offset:3px}@media(max-width:760px){.shell{padding:20px 20px 90px}.layout{display:block}.company{margin-top:38px}.facts{gap:18px 25px}.section{margin-top:32px}.info{grid-template-columns:145px 1fr}.mobile-apply{display:flex;position:fixed;left:16px;right:16px;bottom:16px;z-index:5;box-shadow:0 8px 30px #0d356b30}}@media(max-width:410px){h1{font-size:25px}.brand{gap:12px}.logo{width:62px;height:62px}.facts{display:grid;grid-template-columns:1fr 1fr;gap:18px 8px}.fact{font-size:12px}.info{grid-template-columns:1fr;gap:5px}.info dd{margin-bottom:12px}.meta{gap:15px;flex-wrap:wrap}}
+    .button.primary{border:0;cursor:pointer;width:100%}
+    button:focus-visible{outline:3px solid #13d6c4;outline-offset:3px}
+    #copy-status{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:80;max-width:calc(100vw - 32px);padding:12px 18px;border-radius:8px;background:#182338;color:#fff;box-shadow:0 8px 24px #18233833;text-align:center;font-size:14px}
+    @media(max-width:760px){#copy-status{bottom:82px}}
+  </style>
+  <style>
+    .brand .logo{flex:none}.brand span{min-width:0;overflow-wrap:anywhere}.company .brand{font-size:13px}.site-header{position:sticky;top:0;z-index:10;background:#fff;box-shadow:0 1px 0 #e8edf3}.header-inner{max-width:1296px;min-height:83px;margin:auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:24px}.site-logo{display:inline-flex;align-items:center;gap:10px;color:#082e67;font-size:34px;font-weight:800;letter-spacing:-.05em}.site-logo img{width:50px;height:50px;object-fit:contain}.site-nav{display:flex;align-items:center;gap:30px;color:#082e67;font-size:15px;font-weight:600}.site-nav a:hover,.footer-links a:hover{color:#ffb91f}.header-cta{display:inline-flex;align-items:center;gap:9px;padding:12px 22px;border-radius:999px;background:#ffb91f;color:#082e67;font-size:15px;font-weight:700;white-space:nowrap}.header-cta:hover{background:#ff9b1f}.menu-toggle{display:none;border:0;background:transparent;color:#082e67;font-size:28px;cursor:pointer}.language-toggle{position:fixed;right:24px;bottom:24px;z-index:70;display:inline-flex;min-width:64px;min-height:44px;align-items:center;justify-content:center;border:1px solid rgba(8,46,103,.16);border-radius:999px;background:#fff;color:#082e67;font-size:14px;font-weight:700;box-shadow:0 10px 28px rgba(8,46,103,.18);transition:border-color .2s,background-color .2s,transform .2s}.language-toggle:hover{border-color:#13d6c4;background:#f3faf8;transform:translateY(-1px)}html[lang="zh-CN"] body{font-family:"Inter","Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif}.site-footer{background:#082e67;color:#fff}.footer-inner{max-width:1296px;margin:auto;padding:64px 32px 28px}.footer-main{display:flex;justify-content:space-between;gap:60px}.footer-intro{max-width:420px}.footer-logo{display:inline-flex;align-items:center;gap:9px;border-radius:10px;padding:7px 13px;background:#fff;color:#082e67;font-size:30px;font-weight:800}.footer-logo img{width:34px;height:34px;object-fit:contain}.footer-intro p{font-size:14px;line-height:1.75}.footer-company-name{font-weight:700}.footer-contact{max-width:550px}.footer-contact h2{color:#13d6c4;font-size:13px;letter-spacing:.13em;text-transform:uppercase;margin:4px 0 20px}.footer-links{display:grid;grid-template-columns:1fr 1fr;gap:15px 30px;font-size:14px;line-height:1.5}.footer-links a,.footer-links span{display:flex;align-items:flex-start;gap:11px}.footer-links .ti{color:#13d6c4;font-size:19px}.footer-address{grid-column:1/-1}.footer-bottom{margin-top:52px;padding-top:22px;border-top:1px solid #ffffff28;display:flex;justify-content:space-between;gap:20px;color:#ffffff99;font-size:12px;line-height:1.5}.footer-bottom p{margin:0}@media(max-width:1000px){.site-nav{gap:17px;font-size:13px}}@media(max-width:760px){.header-inner{min-height:70px;padding:0 20px}.site-logo{font-size:29px}.site-logo img{width:50px;height:50px}.header-cta{margin-left:auto;padding:10px 15px;font-size:13px}.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:70px;left:0;right:0;padding:16px 20px 22px;background:#fff;box-shadow:0 12px 20px #082e6718;flex-direction:column;align-items:stretch;gap:0}.site-nav.is-open{display:flex}.site-nav a{padding:12px 0;font-size:15px}.footer-main{display:block}.footer-contact{margin-top:34px}.footer-bottom{display:block}.footer-bottom p+p{margin-top:8px}}@media(max-width:410px){.header-cta{font-size:12px;padding:9px 12px}.header-cta .ti{display:none}.footer-inner{padding:50px 20px 100px}.footer-links{grid-template-columns:1fr}.footer-address{grid-column:auto}.language-toggle{right:16px;bottom:86px}}
+  </style>
+  <style>
+    /* Match the shared HOMI header container and breakpoints on index.html. */
+    .site-header{box-shadow:none;border-bottom:1px solid transparent;transition:border-color .3s ease}.site-header.scrolled{border-bottom-color:#082e671f}.header-inner{max-width:1440px;height:83px;min-height:0;padding-inline:72px;gap:24px}.site-logo{gap:10px;font-family:'Inter',sans-serif;font-size:25px;line-height:1;letter-spacing:-.025em}.site-logo img{width:auto;height:50px}.site-nav{gap:42px;font-size:18px}.header-cta{padding:12px 24px;font-size:18px}.menu-toggle{display:none}
+    @media(min-width:1024px) and (max-width:1279px){.header-inner{padding-inline:32px}.site-nav{gap:18px;font-size:16px;white-space:nowrap}.header-cta{padding-inline:18px;font-size:16px}}
+    @media(max-width:1023px){.header-inner{height:74px;padding-inline:24px;gap:12px}.site-nav{display:flex;position:fixed;top:74px;left:0;right:0;z-index:45;flex-direction:column;align-items:stretch;gap:0;padding:10px 20px 18px;background:#fffffffA;border-top:1px solid #082e6714;box-shadow:0 18px 38px #082e6724;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(-12px);transition:opacity .22s,transform .22s,visibility .22s}.site-nav.is-open{opacity:1;visibility:visible;pointer-events:auto;transform:translateY(0)}.site-nav a{display:flex;min-height:48px;align-items:center;padding-inline:6px;border-bottom:1px solid #082e6714;font-size:15px}.site-nav a:last-child{border-bottom:0}.menu-toggle{display:inline-flex;width:44px;height:44px;flex:none;align-items:center;justify-content:center;border:1px solid #082e6724;border-radius:50%;background:#fff;color:#082e67;font-family:Arial,sans-serif;font-size:22px}.menu-toggle .ti{display:none}.menu-toggle::before{content:'☰'}.menu-toggle[aria-expanded=true]::before{content:'×';font-size:30px;font-weight:300}}
+    @media(max-width:767px){.header-inner{padding-inline:16px;gap:10px}.site-logo{gap:8px;min-height:44px;font-size:25px}.site-logo img{height:50px}.site-nav{padding-inline:16px}.header-cta{margin-left:auto;padding:10px 16px;font-size:13px}.header-cta .ti{display:none}}
+    @media(max-width:359px){.site-logo{font-size:0}.header-cta{padding-inline:12px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-logo" href="index.html#hero" aria-label="HOMI - về trang chủ"><img src="assets/images/logo.png" alt="">HOMI</a>
+      <nav class="site-nav" id="detail-navigation" aria-label="Điều hướng chính">
+        <a href="index.html#gioi-thieu">Về chúng tôi</a><a href="index.html#phuong-phap">Khám phá</a><a href="index.html#danh-gia">Đánh giá</a><a href="index.html#bang-gia">Bảng giá</a><a href="index.html#faq">FAQ</a><a href="index.html#tuyen-dung" aria-current="page">Tuyển dụng</a>
+      </nav>
+      <a class="header-cta" href="index.html#bang-gia">Đặt hàng <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="detail-navigation" aria-expanded="false" aria-label="Mở menu điều hướng"><i class="ti ti-menu-2" aria-hidden="true"></i></button>
+    </div>
+  </header>
+  <div class="shell">
+    <a class="back" href="index.html#tuyen-dung"><i class="ti ti-arrow-left" aria-hidden="true"></i> Quay lại danh sách tuyển dụng</a>
+    <div class="layout">
+      <main>
+        <div class="brand"><img class="logo" src="assets/images/logo.png" alt="Logo Hòa Mỹ"><span>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ</span></div>
+        <h1 id="job-title"></h1>
+        <div class="facts" aria-label="Thông tin chính">
+          <span class="fact"><i class="ti ti-map-pin" aria-hidden="true"></i><span id="job-location"></span></span>
+          <span class="fact"><i class="ti ti-coin" aria-hidden="true"></i><span id="job-salary"></span></span>
+          <span class="fact" id="experience-fact"><i class="ti ti-briefcase" aria-hidden="true"></i><span id="job-experience"></span></span>
+          <span class="fact"><i class="ti ti-school" aria-hidden="true"></i><span id="job-education"></span></span>
+        </div>
+        <div class="meta"><span><i class="ti ti-clock" aria-hidden="true"></i>Đang tuyển</span><span id="deadline-meta"><i class="ti ti-calendar-event" aria-hidden="true"></i>Hạn ứng tuyển: <span id="job-deadline"></span></span></div>
+        <section class="section" aria-labelledby="description-heading"><div class="section-heading"><i class="ti ti-file-description" aria-hidden="true"></i><h2 id="description-heading">Mô tả công việc</h2></div><ul id="job-description"></ul></section>
+        <section class="section" aria-labelledby="requirements-heading"><div class="section-heading"><i class="ti ti-user-filled" aria-hidden="true"></i><h2 id="requirements-heading">Yêu cầu ứng viên</h2></div><ul id="job-requirements"></ul></section>
+        <section class="section" id="benefits-section" aria-labelledby="benefits-heading"><div class="section-heading"><i class="ti ti-gift-filled" aria-hidden="true"></i><h2 id="benefits-heading">Quyền lợi</h2></div><ul id="job-benefits"></ul></section>
+        <dl class="info"><dt><i class="ti ti-map-pin" aria-hidden="true"></i>Địa điểm làm việc</dt><dd id="detail-location"></dd><dt><i class="ti ti-calendar-time" aria-hidden="true"></i>Hình thức làm việc</dt><dd>Toàn thời gian</dd><dt><i class="ti ti-users" aria-hidden="true"></i>Cấp bậc</dt><dd id="job-level"></dd><dt><i class="ti ti-category" aria-hidden="true"></i>Ngành nghề</dt><dd id="job-field"></dd><dt id="schedule-label" hidden><i class="ti ti-clock" aria-hidden="true"></i>Thời gian làm việc</dt><dd id="job-schedule" hidden></dd><dt id="lunch-label" hidden><i class="ti ti-tools-kitchen-2" aria-hidden="true"></i>Nghỉ trưa</dt><dd id="job-lunch" hidden></dd><dt id="deadline-label"><i class="ti ti-calendar-check" aria-hidden="true"></i>Hạn nộp hồ sơ</dt><dd id="detail-deadline"></dd></dl>
+        <section class="section" id="application-section" aria-labelledby="application-heading" hidden><div class="section-heading"><i class="ti ti-send" aria-hidden="true"></i><h2 id="application-heading">Cách thức ứng tuyển</h2></div><p id="application-text"></p><p><a id="application-email" href="#"></a> · <a id="application-phone" href="#"></a></p></section>
+      </main>
+      <aside class="company" aria-label="Thông tin công ty"><div class="brand"><img class="logo" src="assets/images/logo.png" alt="Logo Hòa Mỹ"><span>CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ</span></div><p>HOMI đồng hành cùng trẻ trên hành trình học tiếng Anh, giúp các em luyện nói và xây dựng sự tự tin mỗi ngày.</p><div class="company-fact"><i class="ti ti-category" aria-hidden="true"></i>Giáo dục · Công nghệ</div><div class="company-fact"><i class="ti ti-map-pin" aria-hidden="true"></i>Việt Nam</div><div class="company-fact"><i class="ti ti-mail" aria-hidden="true"></i><span id="company-email">huameizhongxin@gmail.com</span></div><div class="company-fact" id="company-phone-fact" hidden><i class="ti ti-phone" aria-hidden="true"></i><span id="company-phone"></span></div><div class="actions"><a class="button outline" href="index.html#gioi-thieu">Xem thông tin về công ty</a><button id="apply" class="button primary" type="button"><i class="ti ti-send" aria-hidden="true"></i>Ứng tuyển ngay</button></div></aside>
+    </div>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-intro"><a class="footer-logo" href="index.html#hero"><img src="assets/images/logo.png" alt="">HOMI</a><p>Homi đồng hành giúp con luyện nói tiếng Anh mỗi ngày.</p><p class="footer-company-name">CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ</p></div>
+        <div class="footer-contact"><h2>Liên hệ</h2><div class="footer-links"><span class="footer-address"><i class="ti ti-map-pin" aria-hidden="true"></i>36/28 Lê Thị Hồng, Phường Gò Vấp, Thành phố Hồ Chí Minh</span><a href="tel:0386507184"><i class="ti ti-phone" aria-hidden="true"></i>0386 507 184</a><a href="mailto:huameizhongxin@gmail.com"><i class="ti ti-mail" aria-hidden="true"></i>huameizhongxin@gmail.com</a><a href="https://hoamytech.com" target="_blank" rel="noopener noreferrer"><i class="ti ti-world" aria-hidden="true"></i>hoamytech.com</a></div></div>
+      </div>
+      <div class="footer-bottom"><p>© 2026 CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ</p><p>Homi · Người bạn luyện nói tiếng Anh của con</p></div>
+    </div>
+  </footer>
+  <button id="mobile-apply" class="button primary mobile-apply" type="button"><i class="ti ti-send" aria-hidden="true"></i>Ứng tuyển ngay</button>
+  <div id="copy-status" role="status" aria-live="polite" hidden></div>
+  <button class="language-toggle" id="language-toggle" type="button" aria-label="Chuyển sang tiếng Trung" aria-pressed="false">中文</button>
+  <script>
+    const menuToggle=document.getElementById('menu-toggle');
+    const detailNavigation=document.getElementById('detail-navigation');
+    const languageToggle=document.getElementById('language-toggle');
+    const textNodes=new WeakMap();
+    const attrValues=new WeakMap();
+    const zhStatic={
+      'Chi tiết tuyển dụng | HOMI':'招聘详情 | HOMI','HOMI - về trang chủ':'HOMI - 返回首页','Điều hướng chính':'主导航','Về chúng tôi':'关于我们','Khám phá':'探索','Đánh giá':'用户评价','Bảng giá':'价格方案','FAQ':'FAQ','Tuyển dụng':'招聘','Đặt hàng':'立即购买','Mở menu điều hướng':'打开导航菜单','Đóng menu điều hướng':'关闭导航菜单','Quay lại danh sách tuyển dụng':'返回招聘列表','Logo Hòa Mỹ':'和美标志','CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ':'和美咨询贸易服务有限责任公司','Thông tin chính':'主要信息','Đang tuyển':'正在招聘','Hạn ứng tuyển:':'申请截止：','Mô tả công việc':'工作描述','Yêu cầu ứng viên':'候选人要求','Quyền lợi':'福利待遇','Địa điểm làm việc':'工作地点','Hình thức làm việc':'工作形式','Cấp bậc':'职级','Ngành nghề':'行业领域','Hạn nộp hồ sơ':'简历截止日期','Thời gian làm việc':'工作时间','Nghỉ trưa':'午休','Cách thức ứng tuyển':'申请方式','Thông tin công ty':'公司信息','HOMI đồng hành cùng trẻ trên hành trình học tiếng Anh, giúp các em luyện nói và xây dựng sự tự tin mỗi ngày.':'HOMI 陪伴孩子学习英语，帮助他们每天练习口语并建立自信。','Giáo dục · Công nghệ':'教育 · 科技','Việt Nam':'越南','Xem thông tin về công ty':'查看公司信息','Ứng tuyển ngay':'立即申请','Homi đồng hành giúp con luyện nói tiếng Anh mỗi ngày.':'HOMI 每天陪伴孩子练习英语口语。','Liên hệ':'联系我们','36/28 Lê Thị Hồng, Phường Gò Vấp, Thành phố Hồ Chí Minh':'越南胡志明市旧邑坊黎氏红街 36/28 号','© 2026 CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TƯ VẤN HÒA MỸ':'© 2026 和美咨询贸易服务有限责任公司','Homi · Người bạn luyện nói tiếng Anh của con':'HOMI · 孩子的英语口语伙伴','Toàn thời gian':'全职','Chuyển sang tiếng Trung':'切换到中文'
+    };
+    const benefits={
+      vi:['Thu nhập theo mức lương hiển thị, trao đổi cụ thể theo năng lực.','Được làm việc cùng đội ngũ phát triển sản phẩm giáo dục cho trẻ em.','Các chế độ bảo hiểm và nghỉ phép theo quy định.','Môi trường hợp tác, có cơ hội học hỏi và phát triển chuyên môn.'],
+      zh:['薪资按页面显示范围，具体根据能力面议。','与儿童教育产品开发团队一起工作。','依法享有保险和休假制度。','协作型环境，有学习和专业成长机会。']
+    };
+    const jobs={
+      vi:{
+        'thuc-tap-sinh-tieng-trung':{title:'Thực tập sinh tiếng Trung',location:'36/28 Đường Lê Thị Hồng, Gò Vấp, TP.HCM',salary:'6 – 8 triệu VNĐ/tháng',field:'Tiếng Trung / Phiên dịch',education:'Cao đẳng hoặc Đại học',level:'Thực tập sinh',schedule:'Thứ 2 – Thứ 6, 9:00 – 18:00',lunch:'1,5 tiếng',email:'Khanhhuyen.kami01@gmail.com',phone:'0839572134',application:'Gửi CV qua email hoặc số điện thoại để bộ phận HR xem xét và liên hệ phỏng vấn.',benefits:['Mức lương 6 – 8 triệu VNĐ/tháng.','Có cơ hội lên chính thức.'],description:['Hỗ trợ phiên dịch Trung – Việt trong công việc.','Hỗ trợ trả lời tin nhắn của khách hàng trên các kênh của công ty.','Thực hiện các công việc khác theo sự phân công của cấp trên.'],requirements:['Tốt nghiệp Cao đẳng hoặc Đại học; không bắt buộc tốt nghiệp chuyên ngành tiếng Trung.','Không bắt buộc có chứng chỉ HSK, chỉ cần trình độ tương đương HSK4 trở lên.','Có khả năng nghe hiểu tiếng Trung, đủ để hỗ trợ phiên dịch trong công việc.','Ưu tiên ứng viên đã từng làm việc hoặc tiếp xúc với người Trung Quốc.','Nhanh nhẹn, chủ động, có trách nhiệm trong công việc.']},
+        'van-hanh-marketing':{title:'Nhân viên vận hành Marketing',location:'36/28 Đường Lê Thị Hồng, Gò Vấp, TP.HCM',salary:'Từ 10 triệu VNĐ/tháng; trao đổi cụ thể khi phỏng vấn trực tiếp',field:'Marketing / Truyền thông',experience:'Có kinh nghiệm vận hành mạng xã hội',education:'Cao đẳng hoặc Đại học',level:'Nhân viên',schedule:'Thứ 2 – Thứ 6, 9:00 – 18:00',lunch:'1,5 tiếng',email:'Khanhhuyen.kami01@gmail.com',phone:'0839572134',application:'Gửi CV qua email hoặc số điện thoại để bộ phận HR xem xét và liên hệ phỏng vấn.',benefits:[],description:['Vận hành và phát triển các kênh Facebook, TikTok và các nền tảng truyền thông của công ty.','Lên kế hoạch, triển khai và theo dõi các hoạt động quảng cáo/marketing nhằm tăng độ nhận diện thương hiệu, lượng tiếp cận và khách hàng tiềm năng.','Phối hợp xây dựng và quản lý nội dung các kênh.','Theo dõi hiệu quả quảng cáo và nội dung (chi phí, lượt tiếp cận, tương tác, tin nhắn, chuyển đổi...), đề xuất phương án tối ưu.','Hỗ trợ các hoạt động vận hành liên quan đến chiến dịch, livestream trên Facebook/TikTok khi cần.'],requirements:['Tốt nghiệp Cao đẳng hoặc Đại học; ưu tiên các ngành Marketing, Truyền thông, Thương mại điện tử hoặc ngành liên quan.','Có kinh nghiệm thực tế về vận hành Facebook, TikTok hoặc các kênh mạng xã hội của doanh nghiệp.','Có khả năng lên nội dung, phối hợp sản xuất hình ảnh/video ngắn và nắm được xu hướng nội dung trên Facebook, TikTok.','Chủ động, có tư duy giải quyết vấn đề, phối hợp tốt với các bộ phận liên quan.']},
+        'noi-dung-tieng-anh':{title:'Chuyên viên Nội dung tiếng Anh',location:'Hà Nội',salary:'12 – 20 triệu ₫',deadline:'16/10/2026',field:'Nội dung giáo dục',experience:'Kinh nghiệm phù hợp',education:'Đại học',level:'Chuyên viên',description:['Biên soạn và rà soát nội dung học tiếng Anh phù hợp với trẻ em.','Phối hợp với nhóm sản phẩm xây dựng hoạt động luyện nói hấp dẫn.','Đánh giá phản hồi của người học để cải thiện bài học.'],requirements:['Sử dụng tiếng Anh tốt và có khả năng biên tập nội dung rõ ràng.','Hiểu cách xây dựng hoạt động học phù hợp với trẻ em.','Cẩn thận, sáng tạo và phối hợp nhóm hiệu quả.']},
+        'frontend-engineer':{title:'Frontend Engineer',location:'Hà Nội',salary:'20 – 35 triệu ₫',deadline:'20/10/2026',field:'Phát triển phần mềm',experience:'Kinh nghiệm phù hợp',education:'Đại học',level:'Chuyên viên',description:['Xây dựng giao diện web mượt mà, dễ sử dụng cho sản phẩm HOMI.','Phối hợp với thiết kế và backend để triển khai các tính năng mới.','Tối ưu khả năng hiển thị, hiệu năng và khả năng truy cập.'],requirements:['Có kinh nghiệm với JavaScript, HTML, CSS và một framework frontend hiện đại.','Hiểu thiết kế responsive và cách kiểm tra giao diện trên nhiều thiết bị.','Có tư duy sản phẩm và tinh thần chủ động cải tiến.']},
+        'cham-soc-khach-hang':{title:'Chuyên viên Chăm sóc khách hàng',location:'TP. Hồ Chí Minh',salary:'12 – 18 triệu ₫',deadline:'22/10/2026',field:'Chăm sóc khách hàng',experience:'Kinh nghiệm phù hợp',education:'Không yêu cầu cụ thể',level:'Chuyên viên',description:['Tư vấn và hỗ trợ phụ huynh trong quá trình tìm hiểu, sử dụng HOMI.','Tiếp nhận phản hồi, phối hợp các bộ phận liên quan để xử lý vấn đề.','Ghi nhận nhu cầu của khách hàng để cải thiện chất lượng dịch vụ.'],requirements:['Giao tiếp rõ ràng, kiên nhẫn và hướng đến giải pháp.','Sử dụng tốt các công cụ làm việc và theo dõi thông tin khách hàng.','Yêu thích lĩnh vực giáo dục và làm việc nhóm.']},
+        'growth-marketing':{title:'Growth Marketing Executive',location:'Hà Nội',salary:'15 – 25 triệu ₫',deadline:'25/10/2026',field:'Marketing / Truyền thông',experience:'Kinh nghiệm phù hợp',education:'Đại học',level:'Chuyên viên',description:['Lập kế hoạch và triển khai các chiến dịch tăng trưởng cho HOMI trên các kênh trực tuyến.','Sáng tạo nội dung và phối hợp cùng đội thiết kế sản xuất tài liệu truyền thông.','Theo dõi số liệu, thử nghiệm ý tưởng mới và đề xuất cách tối ưu hiệu quả.'],requirements:['Có kinh nghiệm triển khai hoạt động marketing số.','Biết phân tích số liệu chiến dịch và sử dụng các công cụ marketing cơ bản.','Có khả năng viết nội dung, tư duy sáng tạo và phối hợp nhóm tốt.']}
+      },
+      zh:{
+        'thuc-tap-sinh-tieng-trung':{title:'中文实习生',location:'胡志明市旧邑郡黎氏红街 36/28 号',salary:'每月 600 万 – 800 万越南盾',field:'中文 / 翻译',education:'大专或大学',level:'实习生',schedule:'周一至周五，9:00 – 18:00',lunch:'1.5 小时',email:'Khanhhuyen.kami01@gmail.com',phone:'0839572134',application:'请通过电子邮件或电话号码发送简历，HR 审核后将联系安排面试。',benefits:['月薪 600 万 – 800 万越南盾。','有机会转为正式员工。'],description:['协助工作中的中越口译。','协助回复公司各渠道的客户消息。','完成上级安排的其他工作。'],requirements:['大专或大学毕业；不要求中文专业。','不强制要求 HSK 证书，中文水平达到 HSK4 或以上即可。','具备中文听力理解能力，能够协助工作中的口译。','有与中国人工作或接触经验者优先。','行动敏捷、积极主动、工作负责。']},
+        'van-hanh-marketing':{title:'营销运营专员',location:'胡志明市旧邑郡黎氏红街 36/28 号',salary:'月薪 1000 万越南盾起；具体薪资面试时详谈',field:'营销 / 传播',experience:'具备社交媒体运营经验',education:'大专或大学',level:'员工',schedule:'周一至周五，9:00 – 18:00',lunch:'1.5 小时',email:'Khanhhuyen.kami01@gmail.com',phone:'0839572134',application:'请通过电子邮件或电话号码发送简历，HR 审核后将联系安排面试。',benefits:[],description:['运营并发展公司的 Facebook、TikTok 及其他传播平台。','规划、执行并跟踪广告和营销活动，提高品牌知名度、触达人数及潜在客户数量。','协助制定和管理各渠道内容。','跟踪广告及内容效果（成本、触达、互动、消息、转化等），提出优化建议。','按需支持营销活动和 Facebook/TikTok 直播的相关运营工作。'],requirements:['大专或大学毕业，市场营销、传播、电子商务或相关专业优先。','具备企业 Facebook、TikTok 或其他社交媒体渠道的实际运营经验。','能够策划内容、协作制作图片或短视频，并了解 Facebook、TikTok 的内容趋势。','积极主动，具备解决问题的思维，能与相关部门良好协作。']},
+        'noi-dung-tieng-anh':{title:'英语内容专员',location:'河内',salary:'12 – 20 百万越南盾',deadline:'2026/10/16',field:'教育内容',experience:'相关经验',education:'大学本科',level:'专员',description:['编写并审核适合儿童的英语学习内容。','与产品团队协作，设计有吸引力的口语练习活动。','评估学习者反馈并持续改进课程。'],requirements:['英语能力良好，能清晰编辑内容。','理解如何构建适合儿童的学习活动。','细心、有创造力，并能高效团队协作。']},
+        'frontend-engineer':{title:'前端工程师',location:'河内',salary:'20 – 35 百万越南盾',deadline:'2026/10/20',field:'软件开发',experience:'相关经验',education:'大学本科',level:'专员',description:['为 HOMI 产品构建流畅、易用的网页界面。','与设计和后端团队协作开发新功能。','优化显示效果、性能和可访问性。'],requirements:['具备 JavaScript、HTML、CSS 以及现代前端框架经验。','理解响应式设计，并能在多种设备上测试界面。','具备产品思维和主动改进意识。']},
+        'cham-soc-khach-hang':{title:'客户服务专员',location:'胡志明市',salary:'12 – 18 百万越南盾',deadline:'2026/10/22',field:'客户服务',experience:'相关经验',education:'无具体要求',level:'专员',description:['在家长了解和使用 HOMI 的过程中提供咨询与支持。','接收反馈，并协调相关部门处理问题。','记录客户需求，帮助提升服务质量。'],requirements:['沟通清晰、有耐心，并以解决方案为导向。','能熟练使用工作工具并跟踪客户信息。','热爱教育领域并善于团队协作。']},
+        'growth-marketing':{title:'增长营销专员',location:'河内',salary:'15 – 25 百万越南盾',deadline:'2026/10/25',field:'营销 / 传播',experience:'相关经验',education:'大学本科',level:'专员',description:['规划并执行 HOMI 在线渠道增长活动。','创作内容，并与设计团队协作制作传播材料。','跟踪数据、测试新想法并提出优化建议。'],requirements:['具备数字营销执行经验。','会分析活动数据，并使用基础营销工具。','具备内容写作能力、创意思维和团队协作能力。']}
+      }
+    };
+    const requestedSlug=new URLSearchParams(location.search).get('vi-tri')||'growth-marketing';
+    const slug=({'ai-engineer':'thuc-tap-sinh-tieng-trung','product-designer':'van-hanh-marketing'})[requestedSlug]||requestedSlug;
+    const set=(id,value)=>document.getElementById(id).textContent=value??'';
+    const list=(id,items)=>{const root=document.getElementById(id);root.textContent='';items.forEach(item=>{const li=document.createElement('li');li.textContent=item;root.append(li)})};
+    const translateStaticText=language=>{
+      const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode(node){if(!node.nodeValue.trim()||node.parentElement?.closest('script,style,#job-title,#job-location,#job-salary,#job-experience,#job-education,#job-deadline,#detail-deadline,#detail-location,#job-level,#job-field,#job-description,#job-requirements,#job-benefits,#job-schedule,#job-lunch,#application-text,#application-email,#application-phone,#company-email,#company-phone'))return NodeFilter.FILTER_REJECT;return NodeFilter.FILTER_ACCEPT;}});
+      const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+      nodes.forEach(node=>{if(!textNodes.has(node))textNodes.set(node,node.nodeValue);const original=textNodes.get(node);if(language==='vi'){node.nodeValue=original;return;}const normalized=original.trim().replace(/\s+/g,' ');const translated=zhStatic[normalized]||normalized;node.nodeValue=(original.match(/^\s*/)?.[0]||'')+translated+(original.match(/\s*$/)?.[0]||'')});
+    };
+    const translateAttributes=language=>{
+      document.querySelectorAll('[aria-label], [title], [placeholder], img[alt]').forEach(element=>{if(!attrValues.has(element))attrValues.set(element,{});const originals=attrValues.get(element);['aria-label','title','placeholder','alt'].forEach(attribute=>{if(!element.hasAttribute(attribute))return;if(!(attribute in originals))originals[attribute]=element.getAttribute(attribute);const original=originals[attribute];element.setAttribute(attribute,language==='zh'?(zhStatic[original]||original):original);});});
+    };
+    const renderJob=language=>{
+      const job=(jobs[language][slug]||jobs[language]['growth-marketing']);
+      set('job-title',job.title);set('job-location',job.location);set('job-salary',job.salary);set('job-experience',job.experience);set('job-education',job.education);set('job-deadline',job.deadline||'');set('detail-deadline',job.deadline||'');set('detail-location',job.location);set('job-level',job.level);set('job-field',job.field);
+      document.getElementById('experience-fact').hidden=!job.experience;
+      document.getElementById('deadline-meta').hidden=!job.deadline;
+      document.getElementById('deadline-label').hidden=!job.deadline;
+      document.getElementById('detail-deadline').hidden=!job.deadline;
+      for(const [name,value] of [['schedule',job.schedule],['lunch',job.lunch]]){document.getElementById(`${name}-label`).hidden=!value;const detail=document.getElementById(`job-${name}`);detail.hidden=!value;detail.textContent=value||'';}
+      document.getElementById('application-section').hidden=!job.application;
+      set('application-text',job.application||'');
+      for(const [name,protocol] of [['email','mailto:'],['phone','tel:']]){const link=document.getElementById(`application-${name}`);link.textContent=job[name]||'';link.href=job[name]?`${protocol}${job[name]}`:'#';}
+      set('company-email',job.email||'huameizhongxin@gmail.com');set('company-phone',job.phone||'');document.getElementById('company-phone-fact').hidden=!job.phone;
+      const jobBenefits=job.benefits??benefits[language];
+      document.getElementById('benefits-section').hidden=jobBenefits.length===0;
+      list('job-description',job.description);list('job-requirements',job.requirements);list('job-benefits',jobBenefits);
+      document.title=language==='zh'?`${job.title} | HOMI 招聘`:`${job.title} | Tuyển dụng HOMI`;
+    };
+    const applyLanguage=language=>{
+      const useChinese=language==='zh';
+      document.documentElement.lang=useChinese?'zh-CN':'vi';
+      renderJob(useChinese?'zh':'vi');
+      translateStaticText(useChinese?'zh':'vi');
+      translateAttributes(useChinese?'zh':'vi');
+      languageToggle.textContent=useChinese?'VI':'中文';
+      languageToggle.setAttribute('aria-pressed',String(useChinese));
+      languageToggle.setAttribute('aria-label',useChinese?'切换到越南语':'Chuyển sang tiếng Trung');
+      menuToggle.setAttribute('aria-label',useChinese?'打开导航菜单':'Mở menu điều hướng');
+      localStorage.setItem('homi-language',useChinese?'zh':'vi');
+    };
+    menuToggle.addEventListener('click',()=>{const open=detailNavigation.classList.toggle('is-open');const useChinese=document.documentElement.lang==='zh-CN';menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?(useChinese?'关闭导航菜单':'Đóng menu điều hướng'):(useChinese?'打开导航菜单':'Mở menu điều hướng'))});
+    languageToggle.addEventListener('click',()=>applyLanguage(document.documentElement.lang==='zh-CN'?'vi':'zh'));
+    const copyStatus=document.getElementById('copy-status');
+    let copyStatusTimer;
+    const copyApplicationPhone=async()=>{
+      const phone='0839572134';
+      try{
+        if(navigator.clipboard?.writeText){
+          await navigator.clipboard.writeText(phone);
+        }else{
+          const input=document.createElement('textarea');
+          input.value=phone;input.style.position='fixed';input.style.opacity='0';
+          document.body.append(input);input.select();
+          const copied=document.execCommand('copy');input.remove();
+          if(!copied)throw new Error('Copy failed');
+        }
+        copyStatus.textContent=document.documentElement.lang==='zh-CN'?`已复制电话号码：${phone}`:`Đã sao chép số điện thoại: ${phone}`;
+      }catch{
+        copyStatus.textContent=document.documentElement.lang==='zh-CN'?`无法复制，请手动复制：${phone}`:`Không thể sao chép. Vui lòng sao chép thủ công: ${phone}`;
+      }
+      copyStatus.hidden=false;
+      clearTimeout(copyStatusTimer);
+      copyStatusTimer=setTimeout(()=>copyStatus.hidden=true,4000);
+    };
+    document.getElementById('apply').addEventListener('click',copyApplicationPhone);
+    document.getElementById('mobile-apply').addEventListener('click',copyApplicationPhone);
+    window.addEventListener('scroll',()=>document.querySelector('.site-header').classList.toggle('scrolled',window.scrollY>8),{passive:true});
+    applyLanguage(localStorage.getItem('homi-language')==='zh'?'zh':'vi');
+  </script>
+</body>
+</html>
+
